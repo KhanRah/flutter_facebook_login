@@ -46,8 +46,7 @@ and paste the below code in that file
     <string name="fb_login_protocol_scheme">fb000000000000</string>
 </resources>
 
-
-Once you created the **strings.xml** file, you need to copy paste below code to **AndroidManifest.xml**
+Once you created the strings.xml file, you need to copy paste below code to AndroidManifest.xml
 
 <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 <activity android:name="com.facebook.FacebookActivity" android:configChanges=
