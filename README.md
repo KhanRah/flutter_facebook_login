@@ -31,7 +31,7 @@ And go on next until the last step
 Add a **strings.xml** file in android/app/src/main/res/values/strings.xml
 
 and paste the below code in that file
-_________________________________________________________________________________
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">myapp</string>
@@ -45,10 +45,10 @@ ________________________________________________________________________________
     -->
     <string name="fb_login_protocol_scheme">fb000000000000</string>
 </resources>
-____________________________________________________________________________________
+
 
 Once you created the **strings.xml** file, you need to copy paste below code to **AndroidManifest.xml**
-________________________________________________________________________________________________________
+
 <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 <activity android:name="com.facebook.FacebookActivity" android:configChanges=
     "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" />
@@ -61,7 +61,7 @@ ________________________________________________________________________________
         <data android:scheme="@string/fb_login_protocol_scheme" />
     </intent-filter>
 </activity>
-_________________________________________________________________________________________________________
+
 Then follow the code in main.dart 
 
   
